@@ -1,17 +1,18 @@
 import React from "react";
-import Bio from "./Components/Bio";
-import './App.css'
+import Header from "./components/Heading";
 
 
+import "./App.css";
 
-const Home = () =>{
-  return(
+const Home = () => {
+  return (
     <>
-  <Bio/>
- 
+      <div>
+        <Header />
+      </div>
+      
     </>
-  )
-  
-}
+  );
+};
 
-export default Home
+export default Home;

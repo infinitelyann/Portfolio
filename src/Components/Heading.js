@@ -1,7 +1,9 @@
 import React from "react";
+import Container from "react-bootstrap/esm/Container";
 import Navigation from "./NavBar";
+import Projects from "./Projects";
 
-const Bio = () => {
+const Header = () => {
     return(
         <>
          <article className="container-sm" style={{marginTop: "15px", }}>
@@ -12,8 +14,11 @@ const Bio = () => {
         </div>
         <Navigation />
         </article>
+        <Container style={{marginTop: "150px"}}>
+        <Projects />
+        </Container>
         </>
     )
 }
 
-export default Bio
+export default Header

@@ -47,5 +47,9 @@ body{
 .sm-font{
   font-weight: 300;
 }
+.card{
+  margin-left: 10px;
+  margin-right: 10px;
+}
 
 
