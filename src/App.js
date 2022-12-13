@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "./components/Heading";
-import About from "./components/About";
+
 
 
 import "./App.css";
@@ -10,9 +10,7 @@ const Home = () => {
     <>
       <div>
         <Header />
-        <hr/>
       </div>
-      <About/>
     </>
   );
 };

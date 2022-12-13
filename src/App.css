@@ -60,3 +60,8 @@ body {
 .opacity-containers:hover{
   opacity: 1;
 }
+.icon{
+  padding: 20px;
+  font-size: 100px;
+  opacity: .75;
+}

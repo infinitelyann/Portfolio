@@ -5,8 +5,8 @@ import Container from "react-bootstrap/esm/Container";
 
 const Projects = () => {
   return (
-    
-      <Container style={{display: "flex"}}>
+    <>
+      <Container style={{display: "flex", paddingTop: "10px"}}>
         <Card className="opacity-containers">
             
           <Card.Body><img style={{width: "150px"}} src="https://i.imgur.com/QcM51DE.png" alt="BlackJack"/></Card.Body>
@@ -27,8 +27,11 @@ const Projects = () => {
           <Card.Body><img style={{width: "150px"}} src="https://i.imgur.com/2VZub1C.png" alt="blogr"/></Card.Body>
           <Card.Footer><a style={{color: "white"}} href="https://github.com/infinitelyann/Capstone-Client" target="_blank">blogr</a></Card.Footer>
         </Card>
-     
+       
       </Container>
+      <hr style={{borderTop: "dotted"}} />
+    </>
+    
      
 
   );

@@ -2,6 +2,8 @@ import React from "react";
 import Container from "react-bootstrap/esm/Container";
 import Navigation from "./NavBar";
 import Projects from "./Projects";
+import About from "./About";
+
 
 const Header = () => {
     return(
@@ -15,6 +17,7 @@ const Header = () => {
         <Navigation />
         </article>
         <Container style={{marginTop: "150px"}}>
+        <About/>
         <Projects />
         </Container>
         </>
