@@ -37,19 +37,26 @@
   }
 }
 
-
-body{
-  font-family: 'Montserrat', sans-serif;
-  background-color: 
-  #F5EBE0;
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #f5ebe0;
 }
 
-.sm-font{
+.sm-font {
   font-weight: 300;
 }
-.card{
+.card {
   margin-left: 10px;
   margin-right: 10px;
 }
 
+.opacity-containers {
+  color: white;
+  background-color: black;
+  opacity: .75;
+  border-radius: 25px;
+}
 
+.opacity-containers:hover{
+  opacity: 1;
+}
