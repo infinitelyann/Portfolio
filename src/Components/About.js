@@ -17,7 +17,7 @@ const About = () =>{
         </Navbar>
         <br/> */}
 
-       <Container style={{ width:"60%", float: "left"}}>
+       <Container style={{ width:"60%", float: "left", paddingTop: "2%" }}>
        
         <h3>Hello!</h3>
             <p> 
