@@ -6,7 +6,7 @@ import Container from "react-bootstrap/esm/Container";
 const Projects = () => {
   return (
     <>
-      <Container style={{display: "flex", paddingTop: "10px"}}>
+      <Container style={{display: "flex", paddingTop: "10px", justifyContent: "center"}}>
         <Card className="opacity-containers">
             
           <Card.Body><img style={{width: "150px"}} src="https://i.imgur.com/QcM51DE.png" alt="BlackJack"/></Card.Body>

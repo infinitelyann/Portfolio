@@ -8,7 +8,7 @@ import About from "./About";
 const Header = () => {
     return(
         <>
-         <article className="container-sm" style={{marginTop: "15px", }}>
+        <article className="container-sm" style={{marginTop: "15px" }}>
         <img style={{width: "200px", borderRadius: "50%", border: "solid", float: "left", position: "absolute", zIndex: "3" }} src="https://i.imgur.com/RhdHDXT.jpg" alt="stephanie"/>
         <div style={{color: "white", backgroundColor: "black", opacity: ".75", borderRadius: "25px", position: "relative", zIndex: "1", textAlign: "right", padding:"10px"}}>
         <h4 className="sm-font">Stephanie Parker</h4>

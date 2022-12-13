@@ -60,8 +60,23 @@ body {
 .opacity-containers:hover{
   opacity: 1;
 }
+ .nav-links{
+  text-decoration: none;
+  color:black;
+  margin: 7px;
+ }
+
+ .nav-links:hover{
+  color:red;
+ }
+
 .icon{
   padding: 20px;
-  font-size: 100px;
-  opacity: .75;
+  color: black;
+  font-size: 75px;
+   opacity: .75
+}
+
+.icon:hover{
+  color:red;
 }

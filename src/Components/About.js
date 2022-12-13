@@ -17,15 +17,6 @@ const About = () =>{
             </p>
        </Container>
        <hr/>
-       <Container style={{display: 'flex', justifyContent: "center", paddingBottom: "10px"}}>
-
-       <i className="icon" style={{padding: "20px", color: "black", fontSize: "75px", opacity: ".75"}} class="devicon-html5-plain-wordmark"></i>    
-       <i className="icon" style={{padding: "20px", color: "black", fontSize: "75px", opacity: ".75"}} class="devicon-javascript-plain"></i> 
-       <i className="icon" style={{padding: "20px", color: "black", fontSize: "75px", opacity: ".75"}} class="devicon-python-plain"></i> 
-       <i className="icon" style={{padding: "20px", color: "black", fontSize: "75px", opacity: ".75"}} class="devicon-react-original"></i>
-          
-       </Container>
-       <hr/>
         </>
     )
 }
