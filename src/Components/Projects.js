@@ -23,13 +23,13 @@ const Projects = () => {
         </Card>
         <Card className="opacity-containers">
         <a style={{color: "white"}} href="https://quizard-by-tuneheads.netlify.app/" target="_blank">
-          <Card.Body><img style={{width: "150px"}} src="https://i.imgur.com/Wm2if6H.png" alt="Quizard"/></Card.Body>
+          <Card.Body><img style={{width: "150px"}} src="https://i.imgur.com/3Vbho2k.gif" alt="Quizard"/></Card.Body>
           <Card.Footer>Quizard</Card.Footer>
           </a>
         </Card>
         <Card className="opacity-containers">
         <a style={{color: "white"}} href="https://github.com/infinitelyann/Capstone-Client" target="_blank">
-          <Card.Body><img style={{width: "150px"}} src="https://i.imgur.com/2VZub1C.png" alt="blogr"/></Card.Body>
+          <Card.Body><img style={{width: "150px"}} src="https://i.imgur.com/rESn5A2.gif" alt="blogr"/></Card.Body>
           <Card.Footer>blogr</Card.Footer>
           </a>
         </Card>
