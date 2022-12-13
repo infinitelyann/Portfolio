@@ -80,3 +80,14 @@ body {
 .icon:hover{
   color:red;
 }
+
+.hide {
+  display: none;
+}
+.myDIV:hover{
+  display: none;
+}
+.myDIV:hover + .hide {
+  display: block;
+  color: red;
+}

@@ -4,7 +4,7 @@ import Container from "react-bootstrap/esm/Container";
 const Skills = () =>{
 return(
     <>
-    
+
     <Container style={{display: 'flex', justifyContent: "center", paddingBottom: "10px"}}>
 
     <i className="icon devicon-html5-plain-wordmark"></i>    
