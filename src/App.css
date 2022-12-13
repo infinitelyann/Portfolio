@@ -59,6 +59,7 @@ body {
 
 .opacity-containers:hover{
   opacity: 1;
+  transition-delay:.255s;
 }
  .nav-links{
   text-decoration: none;
@@ -68,6 +69,7 @@ body {
 
  .nav-links:hover{
   color:red;
+  transition-delay:.25s;
  }
 
 .icon{
@@ -79,6 +81,7 @@ body {
 
 .icon:hover{
   color:red;
+  transition-delay:.25s;
 }
 
 .hide {
@@ -86,8 +89,10 @@ body {
 }
 .myDIV:hover{
   display: none;
+  transition-delay:.25s;
 }
 .myDIV:hover + .hide {
   display: block;
   color: red;
+  transition-delay:.25s;
 }
