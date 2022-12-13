@@ -1,4 +1,5 @@
 import Container from "react-bootstrap/Container";
+import NavLink from "react-bootstrap/esm/NavLink";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 
@@ -10,8 +11,10 @@ const Navigation = () => {
         <Container>
           <Nav>
             <Nav.Link><a style={{textDecoration: "none", color: "inherit"}} href="https://github.com/infinitelyann" target="_blank">GitHub</a></Nav.Link>
+            <Nav.Link><a style={{textDecoration: "none", color: "inherit"}} href="https://www.linkedin.com/in/stephanie-a-parker/" target="_blank">LinkedIn</a></Nav.Link>
             <Nav.Link>About</Nav.Link>
             <Nav.Link>Contact Me</Nav.Link>
+            
           </Nav>
         </Container>
       </Navbar>
