@@ -84,15 +84,14 @@ body {
   transition:.25s;
 }
 
-.hide {
+/* #skills{
   display: none;
 }
-.myDIV:hover{
-  display: none;
-  transition:.25s;
+#skills-icons:hover {
+  visibility: hidden;
 }
-.myDIV:hover + .hide {
-  display: block;
-  color: red;
-  transition:.25s;
-}
+
+#skills-icons:hover + #skills{
+  visibility: visible;
+} */
+

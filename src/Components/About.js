@@ -1,26 +1,15 @@
 import React from "react";
 import Container from "react-bootstrap/esm/Container";
-import Nav from "react-bootstrap/Nav";
-import Navbar from "react-bootstrap/Navbar";
 
 
 const About = () =>{
     return(
         <>
-    {/* <br/>
-        <Navbar style={{float:"right", marginTop: "5%"}}>
-            <Nav>
-            <a className="nav-links" href="https://www.linkedin.com/in/stephanie-a-parker/" target="_blank">LinkedIn</a>
-            <a className="nav-links" href="https://github.com/infinitelyann" target="_blank">GitHub</a>
-            <a className="nav-links" href="https://docs.google.com/document/d/1arCYtD_x2iWU9k4sYe8V4jxN2j5b18ClRk4r5p8PJ6Y/edit" target="_blank">Resume</a>
-            </Nav>
-        </Navbar>
-        <br/> */}
 
-       <Container style={{ width:"60%", float: "left", paddingTop: "2%" }}>
+       <Container style={{ width:"60%", float: "left", marginTop: "10%"}}>
        
         <h3>Hello!</h3>
-            <p> 
+            <p style={{paddingBottom: "5%"}}> 
                 I'm Stephanie, a Full-Stack Software Engineer.
                 I graduated from General Assembly's 12 week Software Engineering Immersive Bootcamp on December 2nd, 2022.
                 <br/>
@@ -29,10 +18,10 @@ const About = () =>{
                 Let's see what we can come up with together! 
             </p>
             
+       <hr style={{borderTop: "dotted"}} />
        </Container>
 
-       <hr/>
-
+       <hr style={{borderTop: "dotted"}} />
         
         </>
     )
